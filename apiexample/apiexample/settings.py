@@ -71,6 +71,19 @@ REST_FRAMEWORK = {
     ),
 }
 
+# apiexample/settings.py
+
+JWT_AUTH = {
+    'JWT_PAYLOAD_GET_USERNAME_HANDLER':
+        'auth0authorization.utils.jwt_get_username_from_payload_handler',
+    'JWT_DECODE_HANDLER':
+        'auth0authorization.utils.jwt_decode_token',
+    'JWT_ALGORITHM': 'RS256',
+    'JWT_AUDIENCE': '6654c8d02ec6e5fee30430e4',
+    'JWT_ISSUER': 'https://user/api/',
+    'JWT_AUTH_HEADER_PREFIX': 'Bearer',
+}
+
 ROOT_URLCONF = 'apiexample.urls'
 
 TEMPLATES = [
