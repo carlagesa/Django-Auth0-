@@ -1,7 +1,7 @@
 
 # Django Auth0 Integration
 ## Introduction
-<img src="https://github.com/carlagesa/Django-Auth0-/blob/main/apiexample/auth0.229x256.png?raw=true" alt="Success!" width="500"/>
+<img src="https://github.com/carlagesa/Django-Auth0-/blob/main/apiexample/auth0.229x256.png?raw=true" alt="Success!" width="200"/>
 
 Auth0 is a powerful identity management platform that allows developers to add authentication and authorization services to their applications. This Django project showcases how to implement Auth0 authentication in a Django application, providing users with secure and seamless access.
 
